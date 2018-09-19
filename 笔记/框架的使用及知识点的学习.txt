@@ -1,0 +1,77 @@
+1、BaseQuickAdapter
+	compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+2、查看这种布局android.support.design.widget.CoordinatorLayout
+3、查看这种布局android.support.design.widget.CollapsingToolbarLayout
+4、查看此框架的使用    implementation 'com.lzy.net:okgo:3.0.4'
+	https://github.com/jeasonlzy/okhttp-OkGo
+5、一个JSBridge库，用于解析html	Webview控件
+	jsbridge	compile 'com.github.lzyzsd:jsbridge:1.0.4'
+6、fragmentation的API
+	https://github.com/YoKeyword/Fragmentation/wiki/2.-API
+	fragmentation使用介绍：https://blog.csdn.net/bskfnvjtlyzmv867/article/details/70849322
+7、查看eventbus的使用	介绍;https://blog.csdn.net/robert_cysy时/article/details/72278266
+	compile 'de.greenrobot:eventbus:+'
+8、TableLayout和ViewPaper的连用
+	https://blog.csdn.net/lmy820200104/article/details/79581441
+	https://blog.csdn.net/qq_15950325/article/details/56834392
+	https://blog.csdn.net/qq_15950325/article/details/54287832
+9、通过请求图片的地址来选择性的加载一定分辨率的图片
+	https://blog.csdn.net/cplvfx/article/details/80292722
+用的是阿里云：
+	https://help.aliyun.com/document_detail/44688.html?spm=5176.doc44686.6.924.t5CtYr
+10、接口指向实现该类的对象
+	https://blog.csdn.net/Jasmine_lh/article/details/71436620
+11、SVN使用：
+	http://www.runoob.com/svn/svn-life-cycle.html
+12、一个JSBridge库，用于解析html	Webview控件
+	jsbridge	compile 'com.github.lzyzsd:jsbridge:1.0.4'
+13、Token学习
+	https://blog.csdn.net/ruanhao1203/article/details/79139496
+14、混合开发：
+	https://blog.csdn.net/qq122627018/article/details/52207600
+15、QQ账号登录实现
+https://blog.csdn.net/jueblog/article/details/14497181
+官方文档：
+http://wiki.connect.qq.com/qq%E7%99%BB%E5%BD%95
+16、微信登录
+https://www.cnblogs.com/over140/p/4127271.html
+http://www.cnblogs.com/benwu/articles/5705604.html
+官方文档：
+https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=1417751808&token=04b86db084e36577b93adaf3445e43f8b01befc9&lang=zh_CN
+17、mipmap尺寸学习
+https://blog.csdn.net/kdsde/article/details/52682431
+18、handle延迟执行，类似于定时器：几秒后执行一次
+https://www.cnblogs.com/DarrenChan/p/5699799.html
+19、JCameraView框架，用来拍照和录像
+https://github.com/CJT2325/CameraView
+20、setResult方法为启动它的活动传值
+https://www.cnblogs.com/fuck1/p/5456337.html
+21、butterknife使用
+https://blog.csdn.net/u012532631/article/details/77196426
+22、relativelayout
+https://zhidao.baidu.com/question/551054225.html?fr=iks&word=layout_alignParentRight&ie=gbk
+23、dialog布局放置的相关内容
+https://blog.csdn.net/yjs15234450670/article/details/70232405
+24、Matisse框架选择图片
+https://blog.csdn.net/qiaoshi96_bk/article/details/76164913
+25、定位相关
+https://blog.csdn.net/qq_37840482/article/details/78791428
+26、类似滑动导航栏、
+https://blog.csdn.net/qq_37840482/article/details/78791428
+27、tablayout+fragment+viewpaper
+https://www.cnblogs.com/Jett/p/5903346.html
+https://www.jianshu.com/p/d84b6aa659ad
+https://segmentfault.com/q/1010000010029124/
+28、ORMLite框架的使用数据库的使用
+29、云通讯IM
+https://cloud.tencent.com/document/product/269/9227
+30、智能刷新布局
+compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
+
+
+
+牢记知识点：
+1、子类会自动调用父类的构造方法
+2、子类会继承父类的变量
+
+

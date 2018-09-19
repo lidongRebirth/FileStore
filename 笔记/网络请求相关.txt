@@ -1,0 +1,7 @@
+startRequest   extends ProjectRequest	启动页获取广告接口	主要是用继承来的RequestBuilder对象来进行设置信息进行访问的
+ProjectRequest		//调用接口的基类，用于添加公共参数？？
+
+
+
+
+

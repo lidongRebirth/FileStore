@@ -1,0 +1,48 @@
+1、复制项目安装失败
+https://blog.csdn.net/s1674521/article/details/77160185未解决
+http://www.mamicode.com/info-detail-2410725.html复制项目改包名步骤
+2、Android Error:Execution failed for task ':app:compileDebugJavaWithJavac' 解决方案自己还未试成功
+https://blog.csdn.net/u014453811/article/details/54582426
+3、添加module的方式
+https://yiweifen.com/v-1-130157.html
+4、Plugin with id 'com.novoda.bintray-release' not found.
+http://www.bubuko.com/infodetail-2340245.html
+ classpath 'com.novoda:bintray-release:0.4.0'
+5、Unable to load class 'org.gradle.api.internal.component.Usage'.
+降低build：gradle版本
+
+6、QQ登录未授权，非官方应用
+签名导致的错误
+https://blog.csdn.net/xinruzhishui_11/article/details/69945304?locationNum=6&fps=1
+7、drawable的selector不生效，原因：android:state_selected="true"要放在第一行
+8、XML布局不显示design editor is unavailable until a successful build
+File-sync project with gradle files
+9、java.io.IOException: Could not delete path
+clean就行，是因为上一次编译的缓存没有清除
+10、SharedPreferences获取时报空指针异常，以及普通类中使用SharedPreferences存储数据
+https://blog.csdn.net/MiaoHuiMing/article/details/51585805
+其实就是在不是activity中使用时，在一个类中使用，要getSharedPreference前要加上上下文，若该类为继承application若是说是application不是activity，则在manifest中的application的name中加入这个类
+11、View view = inflater.inflate(R.layout.paper1, container,false);	
+因为fragment在inflate时没有传入第三个参数false
+        View view = inflater.inflate(R.layout.paper1, container,false);
+12、Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'boolean java.util.List.add(java.lang.Object)' on a null object reference
+list集合未new
+13、Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.support.design.widget.TabLayout$Tab android.support.design.widget.TabLayout.newTab()' on a null object reference
+这种NullpointerException的异常也有可能是未findviewbyid;若用bufferknife,记得bind(this)
+14、warning :uninstalling will remove the application data!
+设置中取消掉instant run 就可以
+15、模拟器运行正常，手机闪退，dimens文件错误，自己添加文件夹后，那个value中的dimens文件也要写入相应的尺寸
+<dimen name="m0.5">0.5dp</dimen>
+    <dimen name="m1">1dp</dimen>
+    <dimen name="m2">2dp</dimen>
+    <dimen name="m3">3dp</dimen>
+    <dimen name="m4">4dp</dimen>
+    <dimen name="m5">5dp</dimen>......
+也可能https://blog.csdn.net/qq_14902465/article/details/50479237
+16、Uninstalling will remove the application data!
+不能安装到手机上，取消掉instant run 
+Android-WARNING: Uninstalling will remove the application data! Do you want to uninstall the existi
+
+
+
+

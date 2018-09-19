@@ -1,0 +1,7 @@
+1、顶部导航栏的绑定 
+ @BindView(R.id.tv_right)
+    TextView tv_right;
+    @BindView(R.id.tv_middle)
+    TextView tv_middle;
+    @BindView(R.id.ib_back)
+    ImageButton ib_back;

@@ -1,0 +1,36 @@
+1、抽象类BaseActivity extends AppCompatActivity implements BaseRequest.ActivityResponseListener 
+        BaseActivity自己有的	抽象	基本方法：需自己继承实现
+        initTitle();
+        initView();
+        initData(savedInstanceState);
+        initListener();
+继承的接口BaseRequest.ActivityResponseListener实现了接口回调，有以下三个方法
+        public <T> void success(int requestCode, String url, T baseBean, String response, Object tag);
+        public void fail(int requestCode, String url, Exception e, Object tag);
+
+        public void parseNetworkResponse(int requestCode, String url, List<String> list);
+
+2、抽象类ProjectBaseActivity extends BaseActivity	无抽象方法，有从BaseActivity继承的抽象方法，谁继承它就需要具体实现它
+	ProjectBaseActivity 包含实现的方法：
+	verifyClickTime()；
+	addOnSoftKeyBoardVisibleListener();
+	selectImage（）；跳转选择图片页面
+	takePhoto（）；跳转拍照界面
+	showNetDialog（）；显示dialog
+	hideNetDialog（）；
+	setStatusBarColor（）；
+
+
+
+以下两个是用来fragment切换到的活动和fragment所继承的base
+3、抽象类BaseUI extends SupportActivity		SupportActivity为implement的开源项目
+	BaseUI新添空方法   
+// 设置布局	protected abstract int setLayout();
+// 初始化组件	protected abstract void initView();
+// 初始化数据	protected abstract void initData();
+public <T extends View> T bindView(int id) {return (T) findViewById(id);}
+4、BaseFM extends SupportFragment		SupportFragment为implement的开源项目
+
+
+布局方面：
+fm_five.xml	我的fragment界面
