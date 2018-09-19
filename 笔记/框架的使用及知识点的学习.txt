@@ -67,7 +67,8 @@ https://segmentfault.com/q/1010000010029124/
 https://cloud.tencent.com/document/product/269/9227
 30、智能刷新布局
 compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
-
+31、Fragment中的onActivityResult问题
+https://www.cnblogs.com/tangZH/archive/2016/10/04/5930491.html
 
 
 牢记知识点：
