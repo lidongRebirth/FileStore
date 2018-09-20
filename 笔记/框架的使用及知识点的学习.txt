@@ -69,7 +69,11 @@ https://cloud.tencent.com/document/product/269/9227
 compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
 31、Fragment中的onActivityResult问题
 https://www.cnblogs.com/tangZH/archive/2016/10/04/5930491.html
-
+32、OkHttpUtils网络请求框架，项目中并非用的鸿洋大神，而是zhy（谁的？？）
+33、DES加解密
+https://blog.csdn.net/zyh_ytvc/article/details/17170025
+34、二维码扫描和生成框架
+https://github.com/bingoogolapple/BGAQRCode-Android
 
 牢记知识点：
 1、子类会自动调用父类的构造方法
