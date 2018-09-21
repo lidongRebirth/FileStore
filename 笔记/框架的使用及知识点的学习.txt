@@ -74,6 +74,9 @@ https://www.cnblogs.com/tangZH/archive/2016/10/04/5930491.html
 https://blog.csdn.net/zyh_ytvc/article/details/17170025
 34、二维码扫描和生成框架
 https://github.com/bingoogolapple/BGAQRCode-Android
+35、选择button的使用
+ToggleButton
+
 
 牢记知识点：
 1、子类会自动调用父类的构造方法
