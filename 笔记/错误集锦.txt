@@ -42,7 +42,8 @@ list集合未new
 16、Uninstalling will remove the application data!
 不能安装到手机上，取消掉instant run 
 Android-WARNING: Uninstalling will remove the application data! Do you want to uninstall the existi
-
+17、is not a concrete class
+不是具体的类，就是抽象的活动不需要在manifest中注册
 
 
 
