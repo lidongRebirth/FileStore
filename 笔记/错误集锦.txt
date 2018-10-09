@@ -44,6 +44,12 @@ list集合未new
 Android-WARNING: Uninstalling will remove the application data! Do you want to uninstall the existi
 17、is not a concrete class
 不是具体的类，就是抽象的活动不需要在manifest中注册
+18、腾讯云项目崩溃原因
+https://cloud.tencent.com/developer/ask/188116
+19、token null is not for an application
+异常原因：AlertDialog创建语句public AlertDialog.Builder (Context context)中，不能使用getApplicationContext()得到的context，而必须使用Activity，所以解决如下
+解决办法：
+将 new AlertDialog.Builder(getApplicationContext()) 改为 new AlertDialog.Builder(MainActivity.this)
 
 
 
